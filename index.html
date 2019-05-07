@@ -8,26 +8,41 @@
   <title>E1</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/codigo.css">
 </head>
 
 <body>
   <!-- <body onload="copyAnio();"> -->
   <div class="contenedor">
     <header class="row">
-      <div class="col">
-        <p><strong>CERTIFICADO DE PROFESIONALIDAD - IFCD0110 - MÓDULO MF0951_2 - UNIDAD FORMATIVA UF1305 - E1</strong></p>
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8" id="azul">
+        <br>
+        <p><strong>CERTIFICADO DE PROFESIONALIDAD - IFCD0110 - MÓDULO MF0951_2 - UNIDAD FORMATIVA UF1305 - E1</strong>
+        </p>
       </div>
+      <div class="col-sm-2"></div>
     </header>
-    <nav class="">
-      <button onclick="date();">Fecha-Hora</button><br>
-      <button onclick="turn();">Voltear</button>
+    <nav class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-2" id="azul2">
+        <br>
+        <button onclick="date();">Fecha-Hora</button><br><br>
+        <button onclick="turn();">Voltear</button>
+      </div>
+      <div class="col-sm-1" id="azul3"></div>
+      <div class="col-sm-5" id="azul3">
+          <p id="fecha"></p>
+      </div>
+      <div class="col-sm-2"></div>
     </nav>
-    <main class="">
-      <p id="fecha"></p>
-    </main>
-    <footer class="">
-      <!-- &copy; <span id="copyanio"></span> Página realizada por: Ibai Trueba Campo. -->
-      <p id="footer"></p>
+    <footer class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8" id="azul4">
+        <!-- &copy; <span id="copyanio"></span> Página realizada por: Ibai Trueba Campo. -->
+        <p id="footer"></p>
+      </div>
+      <div class="col-sm-2"></div>
     </footer>
   </div>
   <script src="js/codigo.js"></script>

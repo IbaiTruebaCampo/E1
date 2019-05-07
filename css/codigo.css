@@ -1,0 +1,29 @@
+header {
+  margin-top: 25px;
+}
+
+#azul {
+  background-color: #103a67;
+  color: aliceblue;
+  height: 80px;
+  text-align: center;
+}
+
+#azul4 {
+  background-color: #103a67;
+  color: aliceblue;
+  height: 25px;
+  text-align: center;
+}
+
+#azul2 {
+  background-color: #5278a3;
+  color: aliceblue;
+  height: 300px;
+}
+
+#azul3 {
+  background-color: #d4e0ec;
+  height: 300px;
+
+}

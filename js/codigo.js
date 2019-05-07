@@ -39,24 +39,24 @@ switch (new Date().getDay()) {
     dia = "sábado";
     break;
 }
+
 function date() {
   document.getElementById("fecha").innerHTML = '<strong>RESULTADOS:</strong> Hoy es ' + dia + '. La hora actual es ' + y.getHours() + ':' + y.getMinutes();
 } //Esta es la función a la que llama el botón de Fecha y Hora.
 
 function turn() {
- let numero = prompt("Introduzca un número de más de un dígito");
- let invertido;
- if  (numero != null && numero != undefined && numero != '' && numero.length > 1) {
-   invertido =  invertir(numero);
-   alert("El número " + numero + "invertido es " + invertido + '.');
- } else {
-   alert("Lo que ha introducido no es válido. Vuelva a intentarlo.");
- }
+  let numero = prompt("Introduzca un número de más de un dígito");
+  let invertido;
+  if (numero != null && numero.length > 1) {
+    invertido = invertir(numero);
+    alert("El número " + numero + " invertido es " + invertido + '.');
+  } else {
+    alert("Lo que ha introducido no es válido. Vuelva a intentarlo.");
+  }
 }
 
-/*funcion invertir(porCadena) {
-  let arr = porCadena.split('');
-  arr.reverse();
-  return arr.join('');
-}*/
-
+function invertir(parCadena) {
+	let arr = parCadena.split('');
+	arr.reverse();
+	return arr.join('');
+}
